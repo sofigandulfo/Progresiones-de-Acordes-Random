@@ -93,13 +93,8 @@ let progresiones = [`${random.progresion1()}`, `${random.progresion2()}`, `${ran
 let progRandom = progresiones[Math.floor(Math.random() * progresiones.length)];
 
 
-//console.log(progresiones);
 
-document.write(progRandom);
-
-//document.write(`${c.progresion1()}`)
-
-
+document.write(`Escala: ${random.i} <br><br>` + progRandom);
 
 
 
